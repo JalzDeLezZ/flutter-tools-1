@@ -72,10 +72,10 @@ final appRouter = GoRouter(
       builder: (context, state) => const ThemeChangerScreen(),
     ),
 
-    // GoRoute(
-    //   path: '/my-theme-changer',
-    //   name: MyThemeChangerScreen.name,
-    //   builder: (context, state) => const MyThemeChangerScreen(),
-    // ),
+    GoRoute(
+      path: '/my-theme-changer',
+      name: MyThemeChangerScreen.name,
+      builder: (context, state) => const MyThemeChangerScreen(),
+    ),
   ],
 );
