@@ -14,9 +14,9 @@ import 'package:flutter/material.dart';
 
 
 
-class AppTheme {
+  class AppTheme {
 
-  final int selectedColor;
+    final int selectedColor;
     final bool isDarkmode; // true = darkmode, false = lightmode
 
   AppTheme({
