@@ -25,12 +25,12 @@ import 'package:widgets_app/config/theme/app_theme.dart';
     // STATE = Estado = new AppTheme();
     ThemeNotifier(): super( AppTheme() );
 
-    //? Darkmode
-    void toggleDarkmode() {
-      state = state.copyWith( isDarkmode: !state.isDarkmode  );
-    }
-    //? _____________
-    void changeColorIndex( int colorIndex) {
-      state = state.copyWith( selectedColor: colorIndex );
-    }
+      //? Darkmode
+      void toggleDarkmode() {
+        state = state.copyWith( isDarkmode: !state.isDarkmode  );
+      }
+      //? _____________
+      void changeColorIndex( int colorIndex) {
+        state = state.copyWith( selectedColor: colorIndex );
+      }
   }

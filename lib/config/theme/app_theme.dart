@@ -36,12 +36,12 @@ import 'package:flutter/material.dart';
   );
 
 
-  AppTheme copyWith({
-    int? selectedColor,
-    bool? isDarkmode
-  }) => AppTheme(
-    selectedColor: selectedColor ?? this.selectedColor,
-    isDarkmode: isDarkmode ?? this.isDarkmode,
-  );
+    AppTheme copyWith({ // copyWith => Para copiar el objeto y modificarlo (SIMILAR SETTER)
+      int? selectedColor,
+      bool? isDarkmode
+    }) => AppTheme(
+      selectedColor: selectedColor ?? this.selectedColor,
+      isDarkmode: isDarkmode ?? this.isDarkmode,
+    );
 
 }
